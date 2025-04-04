@@ -1,14 +1,14 @@
 {
-  "name": "ALI-MD",
-  "description": "Javascript WhatsApp bot made by ALI",
+  "name": "PM IK 804",
+  "description": "Javascript WhatsApp bot made by IK",
   "logo": "https://cdn.ironman.my.id/i/2du3i5.jpg",
-  "keywords": ["ALI-MD"],
+  "keywords": ["PM IK"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "1ZBUETAZ#6mJkgxYjZqMRdNIKjBaJg7noHPqN0a3lEiuNdeICx48",
       "required": true,
       "value": ""
     },  
@@ -35,20 +35,20 @@
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
-      "value": "false"  
+      "required": true,
+      "value": "true"  
     },    
   
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "trur"
     }, 
 
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     }, 
 
     "AUTO_STICKER": {
@@ -73,18 +73,18 @@
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS JUST NOW ALI-MD 🍒*"
+      "value": "*SEEN YOUR STATUS JUST NOW PM IK*"
    
      }, 
 
     "BOT_NAME": {
-      "description": "Type here the bot name.",
+      "description": "PM IK 804 bot",
       "required": false,
       "value": "𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪"
 
@@ -98,44 +98,44 @@
 
     "DELETE_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     }, 
     
     "ANTI_LINK_KICK": {
       "description": "Make it true if you want bot auto remove group link.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     }, 
     
     "ANTI_BAD_WORD": {
       "description": "Make it true if you want bot auto delete bad words.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     }, 
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
 
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
       
     }, 
     
@@ -153,8 +153,8 @@
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     }
 
 },
